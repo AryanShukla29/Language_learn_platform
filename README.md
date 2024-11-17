@@ -2,15 +2,10 @@
 
 # Lingo - Interactive platform for language learning.
 
-![Lingo - Interactive platform for language learning.](/.github/images/img_main.png "Lingo - Interactive platform for language learning.")
+![Language learning platform](/.github/images/img_main.png "Lingo - Interactive platform for language learning.")
 
 
-[![GitHub license](https://flat.badgen.net/github/license/sanidhyy/duolingo-clone?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/duolingo-clone/blob/main/LICENSE "GitHub license")
-[![Maintenance](https://flat.badgen.net/static/Maintained/yes?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/duolingo-clone/commits/main "Maintenance")
-[![GitHub branches](https://flat.badgen.net/github/branches/sanidhyy/duolingo-clone?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/duolingo-clone/branches "GitHub branches")
-[![Github commits](https://flat.badgen.net/github/commits/sanidhyy/duolingo-clone?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/duolingo-clone/commits "Github commits")
-[![GitHub issues](https://flat.badgen.net/github/issues/sanidhyy/duolingo-clone?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/duolingo-clone/issues "GitHub issues")
-[![GitHub pull requests](https://flat.badgen.net/github/prs/sanidhyy/duolingo-clone?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/duolingo-clone/pulls "GitHub pull requests")
+
 
 
 <!-- Table of Contents -->
