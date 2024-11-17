@@ -117,6 +117,8 @@ Clone this repository to your local system.
 Create an .env file in the project root directory with the following content:
 plaintext
 Copy code
+
+
 # Disable Next.js telemetry  
 NEXT_TELEMETRY_DISABLED=1  
 
@@ -137,6 +139,8 @@ NEXT_PUBLIC_APP_URL=http://localhost:3000
 # Clerk admin user IDs (comma-separated for multiple admins)  
 CLERK_ADMIN_IDS="user_xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"  
 # Example for multiple admins: "user_xxxxxxxxxxxxxxxxxxxxxxxxxxxxx, user_xxxxxxxxxxxxxxxxxxxxxx"  
+
+
 Configuration Steps
 1. Obtain Clerk Authentication Keys:
 Source: Clerk Dashboard
@@ -144,16 +148,19 @@ Steps:
 Log in to your Clerk account.
 Navigate to the dashboard or settings.
 Locate the authentication keys section and copy the NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY and CLERK_SECRET_KEY.
+
 2. Retrieve Neon Database URI:
 Source: Neon Database Dashboard
 Steps:
 Access your Neon account and navigate to the connection details.
 Replace <user>, <password>, <host>, and <port> in the URI with your credentials.
+
 3. Fetch Stripe API Keys:
 Source: Stripe Dashboard
 Steps:
 Log in to Stripe and locate the API settings.
 Copy the STRIPE_API_SECRET_KEY and STRIPE_WEBHOOK_SECRET.
+
 4. Update Public App URL:
 Replace http://localhost:3000 with the deployed app’s URL.
 5. Set Clerk Admin IDs:
@@ -161,19 +168,22 @@ Retrieve admin user IDs from the Clerk dashboard and add them to CLERK_ADMIN_IDS
 Installation and Setup
 Install project dependencies:
 
-bash
+~~~bash
 Copy code
-npm install --legacy-peer-deps  
+npm install --legacy-peer-deps
+~~~
 Seed the database:
 
-bash
+~~~bash
 Copy code
-npm run db:push && npm run db:prod  
+npm run db:push && npm run db:prod
+~~~
 Start the development server:
 
-bash
+~~~bash
 Copy code
-npm run dev  
+npm run dev
+~~~
 Verification
 Verify the database is seeded with challenges.
 Test authentication and API integrations.
