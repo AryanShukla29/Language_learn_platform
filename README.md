@@ -23,7 +23,7 @@
 
 Here is the folder structure of this app.
 
-
+~~~ bash
 lingo/
   |- actions/
     |- challenge-progress.ts
@@ -123,7 +123,7 @@ lingo/
   |- postcss.config.js
   |- tailwind.config.ts
   |- tsconfig.json
-
+~~~
 
 <br />
 
