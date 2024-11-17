@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-# Lingo - Interactive platform for language learning.
+# Lingo - platform for language learning.
 
 
 <!-- Table of Contents -->
@@ -163,7 +163,7 @@ CLERK_ADMIN_IDS="user_xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 5. Obtain Clerk Authentication Keys
 
    1. **Source**: Clerk Dashboard or Settings Page
-   2. **Procedure**:
+   2. **Steps**:
       - Log in to your Clerk account.
       - Navigate to the dashboard or settings page.
       - Look for the section related to authentication keys.
@@ -172,7 +172,7 @@ CLERK_ADMIN_IDS="user_xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 6. Retrieve Neon Database URI
 
    1. **Source**: Database Provider (e.g., Neon, PostgreSQL)
-   2. **Procedure**:
+   2. **Steps**:
       - Access your database provider's platform or configuration.
       - Locate the database connection details.
       - Replace `<user>`, `<password>`, `<host>`, and `<port>` placeholders in the URI with your actual database credentials.
@@ -181,7 +181,7 @@ CLERK_ADMIN_IDS="user_xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 7. Fetch Stripe API Key and Webhook Secret
 
    1. **Source**: Stripe Dashboard
-   2. **Procedure**:
+   2. **Steps**:
       - Log in to your Stripe account.
       - Navigate to the dashboard or API settings.
       - Find the section related to API keys and webhook secrets.
@@ -195,7 +195,7 @@ CLERK_ADMIN_IDS="user_xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 9. Identify Clerk Admin User IDs
 
    1. **Source**: Clerk Dashboard or Settings Page
-   2. **Procedure**:
+   2. **Steps**:
       - Log in to your Clerk account.
       - Navigate to the dashboard or settings page.
       - Find the section related to admin user IDs.
@@ -203,9 +203,9 @@ CLERK_ADMIN_IDS="user_xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 10. Save and Secure:
 
-    - Save the changes to the `.env` file.
+    - Save the changes to `.env` file.
 
-11. Install Project Dependencies using `npm install --legacy-peer-deps` or `yarn install --legacy-peer-deps`.
+11. Install Project Dependencies using `npm install --legacy-peer-deps`.
 
 12. Run the Seed Script:
 
@@ -221,7 +221,7 @@ This command uses `npm` to execute the Typescript file (`scripts/prod.ts`) and w
 
 Once the script completes, check your database to ensure that the challenges data has been successfully seeded.
 
-14. Now app is fully configured  and you can start using this app using either one of `npm run dev` or `yarn dev`.
+14. Now app is fully configured  and you can start using this app using either one of `npm run dev` .
 
 **NOTE:** Please make sure to keep your API keys and configuration values secure and do not expose them publicly.
 
