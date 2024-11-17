@@ -127,7 +127,7 @@ duolingo-clone/
 
 <br />
 
-## :toolbox: Getting Started
+ Getting Started
 
 1. Make sure **Git** and **NodeJS** is installed.
 2. Clone this repository to your local computer.
