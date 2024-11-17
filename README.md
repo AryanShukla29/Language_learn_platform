@@ -3,16 +3,12 @@
 # Lingo - Interactive platform for language learning.
 
 
-
-
-
-
 <!-- Table of Contents -->
 <details>
 
 <summary>
 
-# :notebook_with_decorative_cover: Table of Contents
+ Table of Contents
 
 </summary>
 
@@ -225,7 +221,7 @@ This command uses `npm` to execute the Typescript file (`scripts/prod.ts`) and w
 
 Once the script completes, check your database to ensure that the challenges data has been successfully seeded.
 
-14. Now app is fully configured 👍 and you can start using this app using either one of `npm run dev` or `yarn dev`.
+14. Now app is fully configured  and you can start using this app using either one of `npm run dev` or `yarn dev`.
 
 **NOTE:** Please make sure to keep your API keys and configuration values secure and do not expose them publicly.
 
