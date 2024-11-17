@@ -23,8 +23,8 @@
 
 Here is the folder structure of this app.
 
-```bash
-duolingo-clone/
+
+lingo/
   |- actions/
     |- challenge-progress.ts
     |- user-progress.ts
@@ -123,7 +123,7 @@ duolingo-clone/
   |- postcss.config.js
   |- tailwind.config.ts
   |- tsconfig.json
-```
+
 
 <br />
 
